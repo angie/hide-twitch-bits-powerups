@@ -2,6 +2,12 @@
 
 A Chrome extension that removes Twitch Bits rewards and Power-ups from the page.
 
+## Before
+<img src="./screenshots/before.png" width="50%">
+
+## After
+<img src="./screenshots/after.png" width="50%">
+
 ## Features
 
 - Automatically removes elements related to Twitch Bits rewards
@@ -30,12 +36,6 @@ The extension uses JavaScript to:
 1. Select and remove elements with class names containing "bitsRewardListItem--"
 2. Select and remove `<p>` elements with the exact text "Power-ups"
 3. Set up a MutationObserver to handle dynamically added content
-
-## Before
-<img src="./screenshots/before.png" width="50%">
-
-## After
-<img src="./screenshots/after.png" width="50%">
 
 ## Contributing
 
