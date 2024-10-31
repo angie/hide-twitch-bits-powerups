@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Twitch Bits Reward Hider",
+  "version": "1.0",
+  "description": "Hides Twitch Bits rewards",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+}

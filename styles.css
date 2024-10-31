@@ -1,0 +1,4 @@
+/* Fallback CSS in case JavaScript fails */
+[class*="bitsRewardListItem--"] {
+  display: none !important;
+}
