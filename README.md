@@ -31,7 +31,11 @@ The extension uses JavaScript to:
 2. Select and remove `<p>` elements with the exact text "Power-ups"
 3. Set up a MutationObserver to handle dynamically added content
 
-The CSS file provides a fallback method to hide Bits reward elements in case the JavaScript fails to run.
+## Before
+<img src="./screenshots/before.png" width="50%">
+
+## After
+<img src="./screenshots/after.png" width="50%">
 
 ## Contributing
 
